@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+#sec{
+    display: flex;
+    width: auto;
+    flex-direction: row;
+   
+    align-items: center;
+    text-align: center;
+   
+    background: rgb(99, 145, 145);
+    
+   
+}
+
+img{
+    
+    display:flex;
+    justify-content: space-around;
+            
+            justify-content: left;
+            
+    height: 10vh;
+    margin: left;
+    
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+     flex-direction: row;
+    margin-top: 0rem;
+    background-color: grey;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+   
+}
+.btn1{
+    display: inline-block;
+ 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding-left: 3.4rem;
+    padding-right: 3.4rem;
+    border: 2px solid red;
+    border: none;
+    border-radius: 2px;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
+
+    
+.btn4{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+     text-decoration: none;
+     font-size: 1.2rem;
+
+     padding-left: 3.4rem;
+     padding-right: 3.4rem;
+    border: 2px solid red;
+    border: none;
+    border-radius: 2px;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+h1{
+    color: white;
+    font-size: 2rem;
+}
+.d2{
+    
+    display: flex;
+    justify-content: space-between;
+     flex-direction: column;
+    margin-top: 15rem;
+    
+    
+    position: relative;
+    align-items: center;
+
+   
+}
+.download{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+   padding: 0.4rem 2rem;
+    border: 2px solid red;
+    border: none;
+    border-radius: 7px;
+    background-color: red;
+}
+.view{
+    display: inline-block;
+    padding: 0.4rem 2rem;
+   border: 2px solid green;
+   border: none;
+   border-radius: 6px;
+   color: white;
+   background-color: brown;
+   margin-top: 0.2rem;
+}
+.view1{
+    text-decoration: none;
+    color: white;
+    
+
+}
+.last{
+   
+    display: flex;
+    justify-content: space-between;
+     flex-direction: row;
+     position: absolute;
+     left: 0rem;
+    
+}
+ li ul{
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 0.8rem;
+}
