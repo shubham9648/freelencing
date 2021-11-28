@@ -167,9 +167,10 @@ h1{
     .file123{
         display: flex;
         align-items: center;
-        margin-top: -50rem;
+        margin-top: 10rem;
         justify-content: top;
         flex-direction: column;
+       
     }
     label{
         display: inline;
@@ -228,7 +229,7 @@ h1{
     justify-content: center;
      text-decoration: none;
      font-size: 1.2rem;
-      margin-top: 0.8rem;
+      margin-top: 3rem;
      padding-left: 1.4rem;
      padding-right: 1.4rem;
     border: 2px solid red;
@@ -249,7 +250,5 @@ h1{
     
 }
 @media (max-width: 800px) {
-    .file123{
-        margin-top: -8rem;
-    }
+    
 }
