@@ -117,7 +117,7 @@ h1{
    border-radius: 6px;
    color: white;
    background-color: brown;
-   margin-top: 0.2rem;
+   margin-top: -4rem;
 }
 .view1{
     text-decoration: none;
@@ -132,10 +132,124 @@ h1{
      flex-direction: row;
      position: absolute;
      left: 0rem;
+     top: 8rem;
     
 }
- li ul{
+ .bio{
+     display: flex;
+     text-decoration: none;
+     color: white;
+     font-size: 1.4rem;
+ }
+ .btn-2{
+     display: flex;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+    
+     margin-top: 65%;
+     
+ }
+ .btn2{
+     display: inline-block;
+     text-decoration: none;
+     font-size: 2rem;
+     color: white;
+     border: 2px solid red;
+     
+     background-color: red;
+     border: none;
+     padding: 0.4rem 2rem;
+     border-radius: 8px;
+     cursor: pointer;
+     
+    }
+    .file123{
+        display: flex;
+        align-items: center;
+        margin-top: -50rem;
+        justify-content: top;
+        flex-direction: column;
+    }
+    label{
+        display: inline;
+        
+        margin-right: -1rem;
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        color: white;
+    }
+    .file1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+       color: white;
+    }
+    #pdf{
+        margin-left: 1rem;
+        margin-right: -4rem;
+        font-size: 1.2rem;
+    }
+    .submit{
+        font-size: 0.8rem;
+        margin-left: -2rem;
+    }
+    .view{
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+        top: 2rem;
+    }
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    margin-top: 4rem;
+}
+.h1-text{
+    display: inline-block;
+    text-align: left;
+    justify-content: left;
+    align-items: flex-start;
+}
+#text{
+    padding: 12px 20px;
+   box-sizing: border-box;
+    width: 100%;
+}
+   .save{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+     text-decoration: none;
+     font-size: 1.2rem;
+      margin-top: 0.8rem;
+     padding-left: 1.4rem;
+     padding-right: 1.4rem;
+    border: 2px solid red;
+    border: none;
+    border-radius: 2px;
+    background-color: red;
     color: white;
-    font-size: 1.2rem;
-    margin-top: 0.8rem;
+    cursor: pointer;
+    
+}
+
+#subject{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 25rem;
+    
+}
+@media (max-width: 800px) {
+    .file123{
+        margin-top: -8rem;
+    }
 }
